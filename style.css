@@ -62,13 +62,15 @@ body {
 }
 
 .btn-outline {
-    border: 1px solid var(--text-white);
-    color: var(--text-white);
+    width: 200px;
+    border-radius: 100px;
+    color: #ffffff;
+    background: linear-gradient(#1070ff, #005aa3);
 }
 
 .btn:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 210, 255, 0.2);
+    box-shadow: 0 10px 20px rgba(81, 151, 255, 0.2);
 }
 
 /* --- Hero Section --- */
@@ -77,20 +79,31 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
     /**background: radial-gradient(circle at top, #162447 0%, var(--bg-dark) 70%);*/
     background-image: url(bg.png);
 }
 
 .hero-badge {
-    display: inline-block;
-    padding: 6px 16px;
-    background: rgba(0, 210, 255, 0.1);
-    border: 1px solid var(--primary-blue);
-    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: rgba(0, 110, 255, 0.1);
+    border: 1px solid #30c4ffff;
+    border-radius: 60px;
+    width: 120px;
+    height: 120px;
     color: var(--primary-blue);
     font-size: 0.75rem;
     font-weight: 700;
     margin-bottom: 20px;
+    max-width: 200px;
+}
+
+.hero-badge img {
+    width: 100px;
+    border-radius: 100px;
 }
 
 .hero h1 {
