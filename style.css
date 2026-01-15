@@ -77,7 +77,8 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    background: radial-gradient(circle at top, #162447 0%, var(--bg-dark) 70%);
+    /**background: radial-gradient(circle at top, #162447 0%, var(--bg-dark) 70%);*/
+    background-image: url(bg.png);
 }
 
 .hero-badge {
